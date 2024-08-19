@@ -1,0 +1,24 @@
+.catagory-sec
+{
+    background:rgba(255,255,255,1.00) ;
+    position: relative;
+    margin: 30px 0px;
+
+}
+.catagory-sec .catagory-items{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px 30px;
+}
+.catagory-sec .catagory-items li
+{
+    list-style: none;
+    text-decoration: none;
+
+}
+.catagory-sec .catagory-items li a
+{
+    padding: 10px 30px;
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+}

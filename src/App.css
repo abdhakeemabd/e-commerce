@@ -1,0 +1,12 @@
+body
+{
+    overflow-x: hidden;
+    position: relative;
+}
+/* font-size */
+.fs-12{font-size: 12px;line-height: 20px;}
+/* font-color */
+.text-green{
+    color: rgb(11, 117, 43);
+}
+.bg-black{background-color: #070707;}
