@@ -8,6 +8,7 @@ import Jens from './pages/jens'
 import Men from './pages/men'
 import Women from './pages/women'
 import '../src/assets/boostrap/bootstrap.css'
+import ProductDetails from './pages/product-details'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/jens' element={<Jens/>} />
         <Route path='/men' element={<Men/>} />
         <Route path='/women' element={<Women/>}/>
+        <Route path='/product-details' element={<ProductDetails/>} />
       </Routes>
     </Router>
     </>

@@ -128,3 +128,45 @@
     padding: 8px 8px;
     border-radius: 50%;
 }
+.prodcut-details .card{
+    border-color: #b5c9ee;
+}
+.prodcut-details .card .sm-card{
+    padding: 0px 0px;
+    border-radius: 50%;
+    border: 1px solid #b5c9ee ;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+.prodcut-details .card .sm-card .btn
+{
+    box-shadow:none !important; 
+    border-radius: 50%;
+}
+.prodcut-details .card .sm-card .btn:focus 
+{
+    background-color: #201f1f;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.prodcut-details .btn-buy{
+    border: 1px solid #1d1b1b;
+    background-color: #070707;
+    color: #ffffff !important;
+}
+.prodcut-details .btn-chart{
+    border: 1px solid #1d1b1b;
+
+}
+.prodcut-details  svg
+{
+    font-size: 18px;
+}
+.prodcut-details  svg.a
+{
+    transform: rotate(355deg);
+}
+.product-details-cont, .card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+}

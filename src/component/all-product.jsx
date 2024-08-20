@@ -29,7 +29,7 @@ const products = [
     image: Img1,
     price: '340',
     discount: '18% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ const products = [
     image: Img2,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const products = [
     image: Img3,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const products = [
     image: Img4,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ const products = [
     image: Img5,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ const products = [
     image: Img6,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 7,
@@ -77,7 +77,7 @@ const products = [
     image: Img7,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 8,
@@ -85,7 +85,7 @@ const products = [
     image: Img8,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 9,
@@ -93,7 +93,7 @@ const products = [
     image: Img9,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 10,
@@ -101,7 +101,7 @@ const products = [
     image: Img10,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 11,
@@ -109,7 +109,7 @@ const products = [
     image: Img11,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 12,
@@ -117,7 +117,7 @@ const products = [
     image: Img12,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 13,
@@ -125,7 +125,7 @@ const products = [
     image: Img13,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 14,
@@ -133,14 +133,14 @@ const products = [
     image: Img14,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },  {
     id: 15,
     name: 'Elegant Cotton Dress with Floral Print',
     image: Img15,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
   {
     id: 16,
@@ -148,7 +148,7 @@ const products = [
     image: Img16,
     price: '250',
     discount: '10% off',
-    url:'./prodcut-details'
+    url:'/product-details'
   },
 ];
 
@@ -165,7 +165,7 @@ function AllProduct() {
                             <img className='product-img' src={product.image} alt={product.name} />
                         </div>
                         <div className="cont px-2 py-1 mt-3">
-                            <p className='fs-12'>{product.name}</p>
+                            <p className='fs-12 truncate-1'>{product.name}</p>
                             <div className="d-flex justify-content-between">
                                 <div className="text-black">
                                     <span>{product.price}</span>
