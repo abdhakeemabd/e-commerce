@@ -6,7 +6,7 @@ import Navbar from '../component/navbar';
 function ProductDetails() {
   return (
     <div>
-      <Navbar/>
+      <Navbar/> 
       <ProductDetails1/>
       <div className="container">
       <h4 className='text-center'>Related Products</h4>

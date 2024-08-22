@@ -30,7 +30,7 @@ const data = [
     speed: 1500,
     autoplay: false,
     loop: true,
-    slidesToShow: 2,
+    slidesToShow: 1,
     arrows: true,
     dots: true,
     slidesToScroll: 1,

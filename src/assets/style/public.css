@@ -1,18 +1,18 @@
-.banner-cover .slick-slide
+/* .banner-cover .slick-slide
 {
     padding:10px 15px;
-    /* margin-left:50px */
-}
+} */
 .banner-cover .slick-slide .offer-img
 {
     max-width: 100%;
     object-fit: cover;
     height: 200px;
+    width: 100%;
 }
-.banner-cover .slick-slider{
+/* .banner-cover .slick-slider{
     margin-left: -15px;
     margin-right: -15px;
-}
+} */
 .banner-cover .slick-dots li.slick-active{
     width: 40px;
     height: 6px;
@@ -29,10 +29,10 @@
 }
 .banner-cover .slick-slider .slick-arrow.slick-prev{
     border-radius: 0px 5px 5px 0;
-    left: 15px;
+    left: 0px;
 }
 .banner-cover .slick-slider .slick-arrow.slick-next{
-    right: 15px;
+    right: 0px;
     border-radius: 5px 0px 0px 5px;
 }
 .banner-cover .slick-slider .slick-arrow.slick-next::before{
@@ -94,7 +94,7 @@
     width: 30px;
     margin: 0px 10px;
     margin: 0 .5rem;
-    transition: width .3s ease-in-out, border-radius 0ms ease-in-out;
+    transition: width .6s ease-in-out, border-radius 0ms ease-in-out;
 }
 .banner-cover .slick-dots li button{
     border: 1.5px solid #222222;
@@ -125,11 +125,11 @@
     transform: scale(1.1);
 }
 .all-product-sec .card-item .shop{
-    padding: 8px 8px;
+    padding: 8px 10px;
     border-radius: 50%;
 }
 .prodcut-details .card{
-    border-color: #b5c9ee;
+    border-color: #2222222d;
 }
 .prodcut-details .card .sm-card{
     padding: 0px 0px;
@@ -157,7 +157,7 @@
 }
 .prodcut-details .btn-chart{
     border: 1px solid #1d1b1b;
-
+    box-shadow: none;
 }
 .prodcut-details  svg
 {
@@ -169,4 +169,46 @@
 }
 .product-details-cont, .card{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
+}
+.categories-sec-1 a 
+{
+    list-style: none;
+    color: #1a1a1a;
+    text-decoration: none;
+
+}
+.categories-sec-1 a:hover{
+    color: #000;
+}
+.shop-by-catagories-sec .accordion-button:focus {
+    box-shadow: none;
+}
+.shop-by-catagories-sec .accordion-button:not(.collapsed)
+{
+    background-color: #161616;
+    color: #ffffff;
+}
+.shop-by-catagories-sec .accordion-button::after{
+    display: inline-block;
+    content: "";
+    height: 8px;
+    width: 8px;
+    margin-right: 12px;
+    border-top: 2px solid currentcolor;
+    border-right: 2px solid currentcolor;
+    transform: rotate(45deg);
+    transition: transform 0.2s;
+    background: none;
+}
+.shop-by-catagories-sec .accordion-button:not(.collapsed)::after{
+    transform: rotate(314deg);
+    transition: transform 0.2s;
+    background: none;
+}
+.shop-by-catagories-sec .accordion li { 
+    padding: 5px 0px;
+}
+.shop-by-catagories-sec .accordion li a{ 
+color: #070707;
+text-decoration: none;
 }

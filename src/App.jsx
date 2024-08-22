@@ -9,11 +9,14 @@ import Men from './pages/men'
 import Women from './pages/women'
 import '../src/assets/boostrap/bootstrap.css'
 import ProductDetails from './pages/product-details'
+import ScrollToTop from './component/scroll-up'
+import Catagories from './pages/catagories'
 
 function App() {
   return (
     <>
     <Router>
+    <ScrollToTop/>
       <Routes>
         <Route index element={<Home/>} />
         <Route path='/sharts' element={<Sharts/>} />
@@ -22,6 +25,7 @@ function App() {
         <Route path='/men' element={<Men/>} />
         <Route path='/women' element={<Women/>}/>
         <Route path='/product-details' element={<ProductDetails/>} />
+        <Route path='/catagories' element={<Catagories/>} />
       </Routes>
     </Router>
     </>

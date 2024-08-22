@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "react": "^18.3.1",
+    "react-accessible-accordion": "^5.0.0",
+    "react-bootstrap-accordion": "^1.0.0",
     "react-dom": "^18.3.1",
     "react-dropdown": "^1.11.0",
     "react-fancybox": "^0.2.5",
