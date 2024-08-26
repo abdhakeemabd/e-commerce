@@ -6,7 +6,7 @@ function ShopByCatagory() {
     <div>
       <section className='categories-sec-1 pb-0'>
         <div className="container">
-          <div className="row px-5">
+          {/* <div className="row px-5">
             <div className="col-12 px-3">
               <h6 className='mb-3'>Shop by Top Categories</h6>
             </div>
@@ -24,7 +24,7 @@ function ShopByCatagory() {
                   <a href="">Men</a>
                 </div>
               </div>
-          </div>
+          </div> */}
         </div>
       </section>
       <section className='shop-by-catagories-sec'>

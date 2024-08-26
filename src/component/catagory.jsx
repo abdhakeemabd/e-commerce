@@ -25,6 +25,9 @@ function Catagory() {
                             <li>
                                 <Link to='./women'>Women</Link>
                             </li>
+                            <li>
+                                <Link to='./catagories'>All Categories</Link>
+                            </li>
                         </ul>
                     </nav>
                 </div>
