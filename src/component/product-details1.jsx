@@ -14,17 +14,21 @@ function ProductDetails1() {
         <section className='prodcut-details'>
             <div className="container">
                  <div className="row justify-content-center">
-                     <div className="col-md-10 text-center">
+                     <div className="col-md-6 mb-3 text-center">
                         <ReactFancyBox
                        thumbnail={Product1}
                          image={Product1}/>
-                     </div>
-                     <div class="col-sm-4 mt-3 mb-3 ms-3 ">
-                        <h6 font-size="18px" class="">COTTON ZARI KURTI</h6>
+                          <h6 class="mt-3">COTTON ZARI KURTI</h6>
                         <span className='fw-bold'>₹ 208</span>
+                        <div className='mt-2 mb-1 text-center p-4'>
+                        <button className='btn btn-chart me-3 px-4 py-2'><HiOutlineShoppingCart /> <span className='ms-1'>Add To Chart</span></button>
+                        <button className='btn btn-buy ms-3 py-2 px-4'><BsLightningCharge className='a' /><span className='ms-1'>Buy Now</span></button>
+                        </div>
                      </div>
-                     <div className="col-md-9 text-center">
-                        <div className="card px-2 py-3">
+                    <div className="col-md-6">
+                      <div className="row">
+                     <div className="col-md-12">
+                        <div className="card px-3 box-shadow-none py-3">
                           <h4 className='fw-bold mb-3'>Select Size</h4>
                             <div className="d-flex">
                               <div className='sm-card'>
@@ -41,12 +45,8 @@ function ProductDetails1() {
                               </div>
                             </div>
                         </div>
-                        <div className='mt-5 mb-1 text-start p-4'>
-                        <button className='btn btn-chart me-3'><HiOutlineShoppingCart /> <span className='ms-1'>Add To Chart</span></button>
-                        <button className='btn btn-buy ms-3'><BsLightningCharge className='a' /><span className='ms-1'>Buy Now</span></button>
-                        </div>
                      </div>
-                     <div className="col-md-9">
+                     <div className="col-md-12">
                         <div className="product-details-cont p-4 mt-3 mb-3">
                             <h6>Product Details</h6>
                            <div className="fs-14">
@@ -108,6 +108,8 @@ function ProductDetails1() {
                             </div>
                         </div>
                      </div>
+                      </div>
+                    </div>
                  </div>
             </div>
         </section>

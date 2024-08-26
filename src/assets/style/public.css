@@ -125,7 +125,12 @@
     transform: scale(1.1);
 }
 .all-product-sec .card-item .shop{
-    padding: 8px 10px;
+    /* padding: 8px 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.6rem;
+    height: 2.6rem;
     border-radius: 50%;
 }
 .prodcut-details .card{

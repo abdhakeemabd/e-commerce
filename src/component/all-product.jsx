@@ -160,6 +160,7 @@ function AllProduct() {
             <div className="row">
               {products.map(product => (
                 <div className="col-md-3 mb-3" key={product.id}>
+                   <Link className='text-black text-decoration-none' to={product.url}>
                     <div className="card-item">
                         <div className="img-card position-relative overflow-hidden">
                             <img className='product-img' src={product.image} alt={product.name} />
@@ -179,6 +180,7 @@ function AllProduct() {
                             </div>
                         </div>
                     </div>
+                    </Link>
                 </div>
               ))}
             </div>

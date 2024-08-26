@@ -28,7 +28,7 @@ const data = [
   const settings = {
     infinite: true,
     speed: 1500,
-    autoplay: false,
+    autoplay: true,
     loop: true,
     slidesToShow: 1,
     arrows: true,
