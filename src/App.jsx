@@ -11,6 +11,8 @@ import '../src/assets/boostrap/bootstrap.css'
 import ProductDetails from './pages/product-details'
 import ScrollToTop from './component/scroll-up'
 import Catagories from './pages/catagories'
+import Delivery from './pages/delivery'
+import Orderconform from './pages/conform'
 
 function App() {
   return (
@@ -26,6 +28,9 @@ function App() {
         <Route path='/women' element={<Women/>}/>
         <Route path='/product-details' element={<ProductDetails/>} />
         <Route path='/catagories' element={<Catagories/>} />
+        <Route path='/checkout' element={<Delivery/>} />
+        <Route path='/conform' element={<Orderconform/>} />
+
       </Routes>
     </Router>
     </>

@@ -12,9 +12,10 @@ body
 .text-black{color: #000 !important;}
 .bg-red{background-color: #d60000;}
 .bg-black{background-color: #070707;}
-section{
-    padding: 60px 0px;
-}
+.bg-l-mute{background-color: #d3d3d3ec;}
+.bg-l-blue{background-color: #317ffc !important;}
+.text-mute{color: #727272ec;}
+section{padding: 60px 0px;}
 .truncate-1 {-webkit-line-clamp: 1;}
 .truncate-2 {-webkit-line-clamp: 2;}
 .truncate-3 {-webkit-line-clamp: 3;}
@@ -22,3 +23,8 @@ section{
 .truncate-5 {-webkit-line-clamp: 5;}
 .truncate-6 {-webkit-line-clamp: 6;}
 .truncate-1, .truncate-2, .truncate-3, .truncate-4, .truncate-5, .truncate-5 {overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-box-orient: vertical;}
+/* .form select option{padding: 1rem;} */
+.select .css-tj5bde-Svg{color: #00000088 !important;}
+.select .css-tj5bde-Svg:hover{color: #000000 !important;}
+.border-m{ border: 1px solid #1d1b1b;}
+.line-through{text-decoration: line-through;}
