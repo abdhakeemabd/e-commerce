@@ -7,6 +7,7 @@ import { BsLightningCharge } from "react-icons/bs";
 import { FaMoneyCheck } from "react-icons/fa";
 import { FaShippingFast } from "react-icons/fa";
 import { HiOutlineArrowPathRoundedSquare } from "react-icons/hi2";
+import { Link } from 'react-router-dom';
 
 function ProductDetails1() {
   return (
@@ -21,8 +22,8 @@ function ProductDetails1() {
                           <h6 class="mt-3">COTTON ZARI KURTI</h6>
                         <span className='fw-bold'>₹ 208</span>
                         <div className='mt-2 mb-1 text-center p-4'>
-                        <button className='btn btn-chart me-3 px-4 py-2'><HiOutlineShoppingCart /> <span className='ms-1'>Add To Chart</span></button>
-                        <button className='btn btn-buy ms-3 py-2 px-4'><BsLightningCharge className='a' /><span className='ms-1'>Buy Now</span></button>
+                        <Link className='btn btn-chart me-3 px-4 py-2' to=''><HiOutlineShoppingCart /> <span className='ms-1'>Add To Chart</span></Link>
+                        <Link className='btn btn-buy ms-3 py-2 px-4' to='/checkout'><BsLightningCharge className='a' /><span className='ms-1'>Buy Now</span></Link>
                         </div>
                      </div>
                     <div className="col-md-6">
