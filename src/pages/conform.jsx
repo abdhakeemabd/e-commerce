@@ -3,8 +3,13 @@ import Pro1 from '../assets/images/all-product/1.webp'
 import { FaMoneyCheck } from "react-icons/fa";
 import { FaShippingFast } from "react-icons/fa";
 import { HiOutlineArrowPathRoundedSquare } from "react-icons/hi2";
-
+import { useNavigate } from 'react-router-dom';
 function Orderconform() {
+  const navigate = useNavigate();
+
+  const handlePayment = () => {
+    navigate('/payment');
+  };
   return (
     <div>
       <section className='order-conform-sec'>
@@ -13,7 +18,7 @@ function Orderconform() {
                 <div className="col-md-8">
                     <div className="row">
                         <div className="col-12 mb-3">
-                        <h5 className='bg-black text-white px-3 text-uppercase fw-medium py-2 rounded-3'>Order Summary</h5>
+                        <h5 className='bg-black text-center text-white px-3 text-uppercase fw-medium py-2 rounded-3'>Order Summary</h5>
                         </div>
                         <div className="col-md-3 col-10 mb-3">
                           <img className='pro-img' src={Pro1} alt="" />
@@ -26,7 +31,7 @@ function Orderconform() {
                            <div className='mt-3 mb-3'>
                            <span className='bg-l-mute rounded-3 px-2 fs-12 py-1'>Free Delivary </span>
                            </div>
-                           <button className='bg-black px-3 rounded-3 py-2 fs-14 text-white'>Pay ₹ 208</button>
+                           <button onClick={handlePayment} className='bg-black px-3 rounded-3 py-2 fs-14 text-white'>Pay ₹ 208</button>
                         </div>
                         <div className="col-md-12">
                         <div className="card p-4 mb-3 border-0">

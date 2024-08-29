@@ -230,6 +230,13 @@ text-decoration: none;
     max-height: 200px;
     object-fit: contain;
 }
+.payment-sec img{
+    width: 150px;
+    height: 20px;
+    margin-top: 10px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
 /* footer */
 footer{
     position: relative;

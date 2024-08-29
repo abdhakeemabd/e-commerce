@@ -13,6 +13,7 @@ import ScrollToTop from './component/scroll-up'
 import Catagories from './pages/catagories'
 import Delivery from './pages/delivery'
 import Orderconform from './pages/conform'
+import Payment from './component/payment'
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
         <Route path='/catagories' element={<Catagories/>} />
         <Route path='/checkout' element={<Delivery/>} />
         <Route path='/conform' element={<Orderconform/>} />
-
+        <Route path='/payment' element={<Payment/>} />
       </Routes>
     </Router>
     </>

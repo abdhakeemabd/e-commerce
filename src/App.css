@@ -11,7 +11,7 @@ body
 .text-green{color: rgb(11, 117, 43);}
 .text-black{color: #000 !important;}
 .bg-red{background-color: #d60000;}
-.bg-black{background-color: #070707;}
+.bg-black{background-color: #070707 !important;}
 .bg-l-mute{background-color: #d3d3d3ec;}
 .bg-l-blue{background-color: #317ffc !important;}
 .text-mute{color: #727272ec;}
